@@ -1,0 +1,24 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "trace-dev",
+  "owner": {
+    "name": "Trace"
+  },
+  "description": "The Trace MCP Plugin, development build pointed at the Trace dev environment.",
+  "plugins": [
+    {
+      "name": "trace-dev",
+      "source": "./plugins/trace-dev",
+      "description": "Development build of the Trace plugin, pointed at the Trace dev environment.",
+      "category": "integrations",
+      "keywords": [
+        "trace",
+        "analytics",
+        "metrics",
+        "metric-tree",
+        "business-intelligence",
+        "mcp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "trace-dev",
+  "owner": {
+    "name": "Trace"
+  },
+  "metadata": {
+    "description": "Trace plugin built against the Trace development environment."
+  },
+  "plugins": [
+    {
+      "name": "trace-dev",
+      "source": "plugins/trace-dev",
+      "description": "Development build of the Trace plugin, pointed at the Trace dev environment."
+    }
+  ]
+}

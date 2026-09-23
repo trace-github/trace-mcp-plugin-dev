@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "trace-dev",
+  "displayName": "Trace Dev",
+  "version": "0.1.0",
+  "description": "Development build of the Trace plugin, pointed at the Trace dev environment. Connects the agent to Trace and teaches it to ask Trace Analyst about the business data and relay the answer faithfully.",
+  "author": {
+    "name": "Trace"
+  },
+  "homepage": "https://www.hellotrace.io",
+  "keywords": [
+    "trace",
+    "analytics",
+    "metrics",
+    "metric-tree",
+    "business-intelligence",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}
