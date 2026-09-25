@@ -1,7 +1,7 @@
 {
   "name": "trace-dev",
   "displayName": "Trace Dev",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Development build of the Trace plugin, pointed at the Trace dev environment. Connects the agent to Trace and teaches it to ask Trace Analyst about the business data and relay the answer faithfully.",
   "author": {
     "name": "Trace"
